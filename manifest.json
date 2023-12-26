@@ -1,0 +1,19 @@
+{
+    "name": "image-exporter",
+    "description": "여러가지 테스트",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": ["index.js"],
+            "css": ["index.css"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
