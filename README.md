@@ -1,4 +1,4 @@
-# image exporter
+# [DEPRECATED] Image Exporter
 
 This is a Chrome extension that allows you to export images to PNG, JPG, and WebP formats using the canvas element. It utilizes the background.js and context.js files (renamed as index.js) to handle the functionality. Additionally, it makes requests to a personal server located at https://b-p.msub.kr/proxy/~ for further processing.
 
